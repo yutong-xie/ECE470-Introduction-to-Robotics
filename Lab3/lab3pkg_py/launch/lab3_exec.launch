@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="lab3pkg_py" type="lab3_image_exec.py" name="lab3ImageNode" output="screen">
+  </node>
+
+  <node pkg="lab3pkg_py" type="lab3_move_exec.py" name="lab3MoveNode" output="screen">
+  </node>
+  
+</launch>
